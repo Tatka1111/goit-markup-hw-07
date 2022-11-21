@@ -691,8 +691,7 @@ textarea {
   display: flex;
   z-index: 1;
 }
-
-.overlay-box {
+.work .overlay-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -710,8 +709,7 @@ textarea {
           align-items: center;
   background: rgba(47, 48, 58, 0.8);
 }
-
-.overlay-text {
+.work .overlay-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1033,8 +1031,7 @@ textarea {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
-
-.overlay-portfolio {
+.products .overlay-portfolio {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1059,8 +1056,7 @@ textarea {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.overlay-description {
+.products .overlay-description {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
