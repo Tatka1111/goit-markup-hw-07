@@ -10,17 +10,14 @@
   --logo-head-color: #000000;
   --card-set-gap: 30px;
   --icon-color: #AFB1B8;
-}
-
-Fonts {
-  font-family: "Roboto";
-  font-family: "Raleway", sans-serif;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
 }
 
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
 }
 
 .main__header {
@@ -129,7 +126,7 @@ button:active, button:focus {
 .logo {
   width: 145px;
   margin-right: 93px;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -139,7 +136,7 @@ button:active, button:focus {
 
 .logo__text {
   color: var(--accent-text-color);
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
 }
 
 .logo__text--primary {
@@ -394,7 +391,7 @@ button:active, button:focus {
   padding-left: 40px;
   padding-right: 40px;
   margin-bottom: 12px;
-  font-family: "Roboto";
+  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -428,7 +425,7 @@ button:active, button:focus {
   height: 14px;
   left: 576px;
   top: 297px;
-  font-family: "Roboto";
+  font-family: var(--primary-font);
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -715,7 +712,7 @@ textarea {
   display: flex;
   width: 100%;
   height: 16px;
-  font-family: "Roboto";
+  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -1107,7 +1104,7 @@ textarea {
   color: var(--primary-bg-color);
   font-size: 14px;
   line-height: 1.7;
-  font-family: "Roboto";
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
   line-height: 1.7;
@@ -1118,7 +1115,7 @@ textarea {
   color: var(--accent-text-color);
 }
 .footer__email, .footer__phone {
-  font-family: "Roboto";
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1143,7 +1140,7 @@ textarea {
   margin-right: 93px;
 }
 .footer__title {
-  font-family: "Roboto";
+  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

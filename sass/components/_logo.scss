@@ -1,7 +1,7 @@
 .logo {
     width: 145px;
     margin-right: 93px;
-    font-family: "Raleway", sans-serif;
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -10,7 +10,7 @@
   }
   .logo__text {
     color: var(--accent-text-color);
-    font-family: "Raleway", sans-serif;
+    font-family: var(--secondary-font);
   }
   .logo__text--primary {
     color: var(--logo-head-color);

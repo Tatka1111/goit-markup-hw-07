@@ -10,9 +10,6 @@
   --logo-head-color: #000000;
   --card-set-gap: 30px;
   --icon-color: #AFB1B8;
-}
-
-Fonts {
-  font-family: "Roboto";
-  font-family: "Raleway", sans-serif;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
 }/*# sourceMappingURL=variables.css.map */
